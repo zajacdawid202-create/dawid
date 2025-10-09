@@ -1,6 +1,8 @@
+<p>wyszukiwanie wyrazow w tekscie</p>
+
 <?php
   $wzorzec='/byc/';
-  $tekst="być albo nie być";
+  $tekst="byc albo nie byc";
   if(preg_match($wzorzec,$tekst) )
     echo "znaleziono wzorzec";
 else
