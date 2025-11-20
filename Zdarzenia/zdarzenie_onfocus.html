@@ -1,10 +1,8 @@
-<p  style="color: blueviolet;">zdanierznie onfocus </p> 
-<P>Wpisz swoje imie</P>
-<input type="text" id="fname" onfocus="myFunction(this)"><br>
-
-
+<h1 onclick="changeText(this);">
+    Kliknij w tekst
+</h1>
 <script>
-    function myFunction( id ){
-        id.style.background="yellow";
+    function changeText( id ){
+        id.innerHTML="nowy tekst";
     }
 </script>

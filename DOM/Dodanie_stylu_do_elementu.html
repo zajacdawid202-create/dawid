@@ -1,15 +1,15 @@
-
-<style>
-    p {   border:solid 1px red}
-</style>
-
+<!DOCTYPE html>
 <html>
-    <div id="box"></div>
-    </html>
-    <script>
-        const box=document.querySelector('#box');
-        const akapit=document.createElement('p');
-        akapit.classList.add('p');
-        akapit.innerHTML="to jest akapit";
-        box.appendChild(akapit);
-    </script>
+<head>
+<title>Dodaj akapit ze script</title>
+</head>
+<body>
+
+<script>
+var newParagraph = document.createElement('p');
+newParagraph.textContent = 'Jan';
+document.body.appendChild(newParagraph);
+</script>
+
+</body>
+</html>
